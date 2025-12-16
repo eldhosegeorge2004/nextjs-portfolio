@@ -7,11 +7,11 @@ import {motion, useInView} from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Rent Management Dashboard",
+    title: "RentFlow",
     description: "A sleek and interactive Rent Management Dashboard that lets you effortlessly track tenants.",
-    image: "/images/projects/rent1.png",
+    image: "/images/projects/rent5.png",
     tag: ["All", "Web"],
-    previewUrl: "https://achillessssssss.github.io/Rent_Management-/",
+    previewUrl: "https://rent-flow-xi.vercel.app",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const projectsData = [
     description: "A responsive Tic Tac Toe game with AI (Minimax) and 2-Player mode, built using HTML, CSS, and JavaScript.",
     image: "/images/projects/tic2.png",
     tag: ["All", "Web","Mobile"],
-    previewUrl: " https://achillessssssss.github.io/Tic-Tac-Toe/",
+    previewUrl: "https://tictactoe-neon-omega.vercel.app",
   },
   
 

@@ -22,8 +22,9 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-4 space-y-1">
-        <li><strong>B.Tech in Computer Science</strong> – Viswajyothi College of Engineering & Technology (VJCET)</li>
-        <li><strong>Higher Secondary</strong> Kerala State Board, 2020-2022</li>
+        <li><strong>B.Tech in Computer Science and Design</strong> - Viswajyothi College of Engineering & Technology, Vazhakulam | 2022-2026</li>
+        <li><strong>Higher Secondary Education</strong> - Government Higher Secondary School, Pezhakkappilly | 2020-2022</li>
+        <li><strong>SSLC</strong> - Nirmala Higher Secondary School, Muvattupuzha | 2019-2020</li>
       </ul>
     ),
   },
@@ -57,11 +58,11 @@ const AboutSection = () => {
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/about-image1.png" width={700} height={600} alt="About section image" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2  className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I'm a Computer Science and Design undergraduate with a strong interest in crafting impactful digital experiences.
+            I'm a Computer Science and Design undergraduate with a strong interest in crafting impactful digital experiences.
 
-I combine creative thinking with problem-solving to develop responsive websites, mobile applications, and interactive games. With a focus on user experience and clean design, I strive to build solutions that are both functional and visually refined.
+            I combine creative thinking with problem-solving to develop responsive websites, mobile applications, and interactive games. With a focus on user experience and clean design, I strive to build solutions that are both functional and visually refined.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>
